@@ -1,3 +1,4 @@
+node('Slave-1-VMware'){
 pipeline {
   agent any
   stages {
@@ -8,4 +9,5 @@ pipeline {
     }
 
   }
+}
 }
