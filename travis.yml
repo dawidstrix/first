@@ -33,3 +33,4 @@ script:
   - php bin/phing test:unit
   - export DATABASE_URL="pgsql://ergonode:123@localhost:5432/ergonode_test?serverVersion=10&charset=utf8"
   - php bin/phing test:behat
+
