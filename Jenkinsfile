@@ -1,6 +1,6 @@
-node('Slave-1-VMware'){
 pipeline {
   agent any
+  node('Slave-1-VMware'){
   stages {
     stage('first') {
       steps {
